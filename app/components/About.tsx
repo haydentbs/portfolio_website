@@ -21,10 +21,10 @@ export default function About() {
           className="max-w-4xl mx-auto text-2xl text-center"
         >
           <p className="mb-6">
-            As a recent physics graduate, I'm passionate about applying scientific principles to solve real-world problems. My projects span various areas of physics, from quantum mechanics to astrophysics.
+            As a recent physics graduate, I am passionate about applying scientific principles to solve real-world problems. My projects focus primarily on machine learning and data science.
           </p>
           <p>
-            I'm always eager to learn and collaborate on exciting new projects that push the boundaries of our understanding of the physical world.
+            I am always eager to learn and collaborate on exciting new projects!
           </p>
         </motion.div>
       </div>
