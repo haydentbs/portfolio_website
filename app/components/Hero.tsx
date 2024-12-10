@@ -45,7 +45,7 @@ export default function Hero() {
             Explore My Work
           </motion.a>
 
-          <div className="flex justify-center gap-3 mx-auto">
+          <div className="flex flex-col md:flex-row md:flex-wrap justify-center gap-3 mx-auto">
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

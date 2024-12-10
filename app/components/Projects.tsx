@@ -56,7 +56,7 @@ export default function Projects() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold mb-12 text-center"
+          className="text-5xl font-bold mb-12 text-center"
         >
           My Projects
         </motion.h2>
@@ -67,7 +67,7 @@ export default function Projects() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-gray-700 rounded-lg shadow-lg overflow-hidden"
+              className="bg-gray-700 rounded-lg shadow-lg overflow-hidden min-w-[200px] flex-grow"
             >
               <Image
                 src={project.image}

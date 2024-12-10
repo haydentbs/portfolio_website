@@ -18,7 +18,7 @@ export default function About() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="max-w-4xl mx-auto text-2xl text-center"
+          className="max-w-4xl mx-auto text-2xl text-center border-2 border-gray-700 p-6 rounded-lg shadow-lg"
         >
           <p className="mb-6">
             As a recent physics graduate, I am passionate about applying scientific principles to solve real-world problems. My projects focus primarily on machine learning and data science.
@@ -28,6 +28,7 @@ export default function About() {
           </p>
         </motion.div>
       </div>
+      <div className="py-10" />
     </section>
   )
 }
