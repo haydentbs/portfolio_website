@@ -13,7 +13,7 @@ export default function Header() {
     >
       <nav className="container mx-auto px-6 py-4">
         <ul className="flex justify-center space-x-8">
-          {['Home', 'About', 'Projects', 'Contact'].map((item) => (
+          {[ 'About', 'Projects'].map((item) => (
             <motion.li key={item} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
               <Link href={`#${item.toLowerCase()}`} className="text-lg font-semibold hover:text-blue-400 transition-colors">
                 {item}
