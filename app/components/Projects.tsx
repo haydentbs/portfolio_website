@@ -23,11 +23,11 @@ const projects = [
     demo: 'https://negotitate-app-v2-haydentbs-haydentbs-projects.vercel.app'
   },
   {
-    title: 'ML and Data Cleaning Porject on Global WHO data',
-    description: 'Cleaned and analysed global WHO data, adding in additioanl data from other sources to produce a model that predicts the life expectancy of country with an R^2 of 0.96',
-    image: '/who_ml2.png?height=200&width=300',
-    repo: 'https://www.kaggle.com/code/haydentibbals/who-ml-v2',
-    skills: ['Python', 'Data Analysis', 'Machine Learning']
+    title: 'Reinforcement Learning Trading Bot',
+    description: 'Built a trading bot that uses reinforcement learning to make trades based on historical data',
+    image: '/stock.png?height=200&width=300',
+    repo: 'https://github.com/haydentbs/RL-Trading-Bot',
+    skills: ['Python', 'Reinforcement Learning', 'Trading']
   },
   {
     title: 'Premier League Match Prediction Model',
@@ -36,6 +36,14 @@ const projects = [
     repo: 'https://github.com/haydentbs/Premier-League-Match-Predictor',
     skills: ['Python', 'NumPy', 'Sci-kit Learn']
   },
+  {
+    title: 'ML and Data Cleaning Porject on Global WHO data',
+    description: 'Cleaned and analysed global WHO data, adding in additioanl data from other sources to produce a model that predicts the life expectancy of country with an R^2 of 0.96',
+    image: '/who_ml2.png?height=200&width=300',
+    repo: 'https://www.kaggle.com/code/haydentibbals/who-ml-v2',
+    skills: ['Python', 'Data Analysis', 'Machine Learning']
+  },
+  
 ]
 
 const skillColors: { [key: string]: string } = {
@@ -46,6 +54,10 @@ const skillColors: { [key: string]: string } = {
   'React': 'bg-red-500',
   'OpenAI API': 'bg-orange-500',
   'Reinforcement Learning': 'bg-teal-500',
+  'Trading': 'bg-pink-500',
+  'NumPy': 'bg-blue-500',
+  'Machine Learning': 'bg-green-500',
+  'Data Cleaning': 'bg-yellow-500',
 }
 
 export default function Projects() {
